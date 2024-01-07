@@ -7,3 +7,6 @@ var btn = document.getElementById('openModal');
 btn.onclick = function() {
   modal.style.display = "block";
 }
+document.getElementById('openModal').addEventListener('click', function() {
+  document.getElementById('myModal').style.display = 'block';
+});
