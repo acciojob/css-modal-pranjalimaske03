@@ -5,3 +5,6 @@
 .modal{
 	display:none;
 }
+#openModal{
+	display:block;
+}
