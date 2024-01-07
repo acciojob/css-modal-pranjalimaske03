@@ -3,7 +3,7 @@ body {
 }
 
 .modal {
-  display: none;
+  display: block;
   position:fixed;
   top: 0;
   left: 0;
@@ -30,6 +30,7 @@ body {
 }
 
 .close-modal {
+	display:none;
   color: #aaa;
   font-size: 20px;
   font-weight: bold;
